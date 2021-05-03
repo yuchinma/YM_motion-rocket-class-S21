@@ -12,5 +12,5 @@ landingTL.to("#space-ship",{duration:1, x:"-=100", y:"+=100", rotation:"-=20"},"
 
 function stopFlames(){
     console.log("stop");
-    flamesTL.kill();
+    flamesTL.pause();
 }
